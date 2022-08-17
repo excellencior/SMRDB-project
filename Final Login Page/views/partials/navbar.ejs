@@ -1,0 +1,27 @@
+<nav id="navbar" class="navbar">
+    <ul>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/latest_reviews">Latest Reviews</a></li>
+      <li class="dropdown"><a href="/genre"><span>Genre</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+        <ul>
+          <form method="post" onclick="location.href='/genre'"> <!--main.css of home_page--> 
+            <button class="genre-btn" name="genre" value="Action">Action</button>
+            <button class="genre-btn" name="genre" value="Adventure">Adventure</button>
+            <button class="genre-btn" name="genre" value="Mystery">Mystery</button>
+            <button class="genre-btn" name="genre" value="Fantasy">Fantasy</button>
+            <button class="genre-btn" name="genre" value="Thriller">Thriller</button>
+            <button class="genre-btn" name="genre" value="Family">Family</button>
+            <button class="genre-btn" name="genre" value="Romance">Romance</button>
+            <button class="genre-btn" name="genre" value="Drama">Drama</button>
+            <button class="genre-btn" name="genre" value="Comedy">Comedy</button>
+            <button class="genre-btn" name="genre" value="Animation">Animation</button>
+            <button class="genre-btn" name="genre" value="Music">Music</button>
+            <button class="genre-btn" name="genre" value="Biography">Biography</button>
+            <button class="genre-btn" name="genre" value="Crime">Crime</button>
+          </form>
+        </ul>
+      </li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/login">Login</a></li>
+    </ul>
+</nav><!-- .navbar -->

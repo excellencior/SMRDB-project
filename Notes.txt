@@ -1,0 +1,20 @@
+Home Page Materials can be used for
+-----------------------------------
+about
+blog
+category
+contact
+genre
+home_page
+review
+search-result
+
+
+Login Page Materials can be used for
+------------------------------------
+login_page
+
+
+Signup Page Materials cab be used for
+-------------------------------------
+signup_page

@@ -35,10 +35,11 @@
 					<span class="login100-form-title p-b-49" id="login-text"> <!-- in main.css -->
 						Login to SMRDB
 					</span>
+					<span style="color: red;"><%= message %></span>
 
-					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
-						<span class="label-input100">Username</span> 
-						<input class="input100" type="text" name="username" placeholder="Type your username">
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Email is required">
+						<span class="label-input100">Email</span> 
+						<input class="input100" type="text" name="email" placeholder="Type your email">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
 
@@ -63,7 +64,7 @@
 					<div class="container-login100-form-btn mt-5">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn">
+							<button class="login100-form-btn" onclick="location.href='/home';" name="guest">
 								Continue as a Guest
 							</button>
 						</div>
