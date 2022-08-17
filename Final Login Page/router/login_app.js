@@ -1,4 +1,3 @@
-const database = require('../Database_connection/database_handler');
 const infoPool = require('../Info/infoPool');
 const bcrypt = require('bcrypt');
 const express = require('express');
@@ -20,9 +19,7 @@ router.route('/') // when a client hits /login, come to this router
 
     console.log(email + ' ' + pass);
 
-    let sql = `SELECT first_name, email, pass FROM user_login WHERE email = :email`;
-
-    let data = (await database.execute(sql, [email], database.options)).rows;
+    const data = (await infoPool.getUserInfo(email, pass));
 
     try {
 

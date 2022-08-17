@@ -55,11 +55,18 @@ async function getLatestReviews() {
     return (await database.execute(sql, [], database.options)).rows;
 }
 
+async function getUserInfo(email, pass) {
+    let sql = `SELECT first_name, email, pass FROM user_login WHERE email = :email`;
+
+    return (await database.execute(sql, [email], database.options)).rows;
+}
+
 module.exports = {  auth_user, 
                     topRatedSM, 
                     sampleCarousel, 
                     aboutSM, 
                     get_Review, 
                     getGenreInfo,
-                    getLatestReviews
+                    getLatestReviews,
+                    getUserInfo
                 };
