@@ -10,6 +10,9 @@ router.route('/') // when a client hits /login, come to this router
         res.render('review');
     })
     .post(async (req, res) => {
+        const user_name = req.body.user_name;
+        const user_review = req.body.user_review;
+
         
     })
 
