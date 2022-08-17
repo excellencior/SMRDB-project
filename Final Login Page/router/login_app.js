@@ -1,4 +1,6 @@
-const insert = require('../Database_connection/insert');
+const database = require('../Database_connection/database_handler');
+const infoPool = require('../Info/infoPool');
+const bcrypt = require('bcrypt');
 const express = require('express');
 const app = express();
 const router = express.Router();
@@ -6,27 +8,49 @@ app.use(router);
 
 router.route('/') // when a client hits /login, come to this router 
     .get((req, res) => {
-        res.render('login_page');
+        res.render('login_page', {
+            message: ''
+        });
     })
-    .post((req, res) => {
+    .post(async (req, res) => {
 
     console.log('In post method');
-    const username = req.body.username ;
+    const email = req.body.email;
     const pass = req.body.pass;
 
-    console.log(username + ' ' + pass);
+    console.log(email + ' ' + pass);
 
-    const sql = 'INSERT INTO USER_LOGIN VALUES( :username, :pass)';
+    let sql = `SELECT first_name, email, pass FROM user_login WHERE email = :email`;
 
-    const binds = {
-        pass : pass,
-        username : username
+    let data = (await database.execute(sql, [email], database.options)).rows;
+
+    try {
+
+        bcrypt.compare (pass, data[0].PASS, (err, result) => {
+        if (result == true) {
+            res.redirect('/home');
+        }
+        else {
+            return res.render('login_page', {
+                message: 'Incorrect Email or Password'
+            });
+            }
+        })
+    } catch {
+        console.log('Error in loggin in!!');
     }
-
-    insert(sql,binds);
-
-    res.send('Inserted');
     
+    
+    // try {
+    //     if (ms_data[0].PASS == pass) {
+    //     res.redirect('/home');
+    // }
+    // }
+    // catch {
+    //     return res.render('login_page', {
+    //         message: 'Incorrect Email or Password'
+    //     });
+    // }
     });
 
 
