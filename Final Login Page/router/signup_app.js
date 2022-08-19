@@ -55,6 +55,9 @@ router.route('/') // when a client hits /login, come to this router
 
     insert.execute(sql, binds, insert.options); // inserting data into user_login
 
+    req.session.validUser = true;
+    req.session.email = email;
+
     res.redirect('/home');
     });
 

@@ -24,7 +24,10 @@ router.route('/') // when a client hits /login, come to this router
     try {
 
         bcrypt.compare (pass, data[0].PASS, (err, result) => {
-        if (result == true) {
+        if (result == true) { // user provided correct credentials
+            req.session.validUser = true;
+            req.session.email = email;
+            
             res.redirect('/home');
         }
         else {
@@ -37,17 +40,6 @@ router.route('/') // when a client hits /login, come to this router
         console.log('Error in loggin in!!');
     }
     
-    
-    // try {
-    //     if (ms_data[0].PASS == pass) {
-    //     res.redirect('/home');
-    // }
-    // }
-    // catch {
-    //     return res.render('login_page', {
-    //         message: 'Incorrect Email or Password'
-    //     });
-    // }
     });
 
 

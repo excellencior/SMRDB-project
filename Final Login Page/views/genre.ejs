@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Yoo! Some movies and series for you</title>
+  <title>SMRDB - Genre</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -14,9 +14,9 @@
   <link href="static_home/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="static_home/https://fonts.googleapis.com">
-  <link rel="preconnect" href="static_home/https://fonts.gstatic.com" crossorigin>
-  <link href="static_home/https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="static_home/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -85,9 +85,15 @@
                 <img src="<%= data.POSTERURL %>" alt="" class="img-fluid">
               </a>
               <div class="ps-md-5 mt-4 mt-md-0">
-                <div class="post-meta mt-4">Runtime: <%= data.RUNTIME %> mins &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red; font-size: larger;">  Rating: <%= data.RATING %></span></div>
+              <div class="post-meta mt-4">Runtime: <%= data.RUNTIME %> mins &nbsp;&nbsp;&nbsp;&nbsp;  <span style="color: red; font-size: larger;">  Rating: <%= data.RATING %></span>
+                </div>
                 <div class="post-meta mt-4">Genre: <%= data.GENRES %></div>
-                <h2 class="mb-4 display-4"><%= data.TITLE %></h2>
+
+                <h2 class="mb-4 display-4"> 
+                  <a href = <%= "/review/"+ data.MOVIE_ID %> >
+                    <%= data.TITLE %> 
+                  </a>
+                </h2>
 
                 <p><%= data.PLOT %></p>
                 <h4>Director: <%= data.DIRECTOR %></h4>

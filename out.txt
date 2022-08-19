@@ -1,0 +1,99 @@
+
+INSERT INTO MOVIE_LIST
+VALUES (1, 'Beetlejuice', 1988, 92, 'Comedy,Fantasy', 'Tim Burton', 'Alec Baldwin, Geena Davis, Annie McEnroe, Maurice Page', 'A couple of recently deceased ghosts contract the services of a bio-exorcist in order to remove the obnoxious new owners of their house.', 'https://image.tmdb.org/t/p/original/nnl6OWkyPpuMm595hmAxNW3rZFn.jpg',8,'https://www.youtube.com/watch?v=ickbVzajrk0',1);
+
+
+INSERT INTO movie_list
+VALUES (2, 'The Cotton Club', 1984, 127, 'Crime,Drama,Music', 'Francis Ford Coppola', 'Richard Gere, Gregory Hines, Diane Lane, Lonette McKee', 'The Cotton Club was a famous night club in Harlem. The story follows the people that visited the club, those that ran it, and is peppered with the Jazz music that made it so famous.', 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg',6.7,'https://www.youtube.com/watch?v=Rpm726g3fH0',1);
+
+
+INSERT INTO movie_list
+VALUES (3, 'The Shawshank Redemption', 1994, 142, 'Crime,Drama', 'Frank Darabont', 'Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler', 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.', 'https://th.bing.com/th/id/R.79c97beaaf53b87c9bb12f834bdb9a03?rik=cwJSVOsc5vUQ5A&riu=http%3a%2f%2fayay.co.uk%2fmovies%2fposter%2fclassic%2fthe-shawshank-redemption.jpg&ehk=0AHb8HgEW3xXAVFQnEk%2f%2bQmg0UA%2bivxJ7AMKg5wI6qQ%3d&risl=&pid=ImgRaw&r=0',9.4,'https://www.youtube.com/watch?v=6hB3S9bIaco',1);
+
+
+INSERT INTO movie_list
+VALUES (4, 'Crocodile Dundee', 1986, 97, 'Adventure,Comedy', 'Peter Faiman', 'Paul Hogan, Linda Kozlowski, John Meillon, David Gulpilil', 'An American reporter goes to the Australian outback to meet an eccentric crocodile poacher and invites him to New York City.', 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0MTU1MTg4NF5BMl5BanBnXkFtZTgwMDgzNzYxMTE@._V1_SX300.jpg',6.7,'https://www.youtube.com/watch?v=JrRfx71_4CQ',1);
+
+
+INSERT INTO movie_list
+VALUES (5, 'Valkyrie', 2008, 121, 'Drama,History,Thriller', 'Bryan Singer', 'Tom Cruise, Kenneth Branagh, Bill Nighy, Tom Wilkinson', 'A dramatization of the 20 July assassination and political coup plot by desperate renegade German Army officers against Hitler during World War II.', 'https://upload.wikimedia.org/wikipedia/en/b/b8/Valkyrie_poster.jpg',7.7,'https://www.youtube.com/watch?v=-YppIQUiE9Y',1);
+
+
+INSERT INTO movie_list
+VALUES (6, 'Ratatouille', 2007, 111, 'Animation,Comedy,Family', 'Brad Bird, Jan Pinkava', 'Patton Oswalt, Ian Holm, Lou Romano, Brian Dennehy', 'A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.', 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg',8.2,'https://www.youtube.com/watch?v=c3sBBRxDAqk',1);
+
+
+INSERT INTO movie_list
+VALUES (7, 'City of God', 2002, 130, 'Crime,Drama', 'Fernando Meirelles, Kátia Lund', 'Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen, Douglas Silva', 'Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.', 'https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_SX300.jpg',8.8,'https://www.youtube.com/watch?v=dcUOO4Itgmw',1);
+
+INSERT INTO movie_list
+VALUES (8, 'Memento', 2000, 113, 'Mystery,Thriller', 'Christopher Nolan', 'Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior', 'A man juggles searching for his wifes murderer and keeping his short-term memory loss from being an obstacle.', 'https://www.reviewsxp.com/blog/wp-content/uploads/2020/05/Memento-e1588409521912.jpg',8.4,'https://www.youtube.com/watch?v=HDWylEQSwFo',1);
+
+INSERT INTO movie_list
+VALUES (9, 'The Intouchables', 2011, 112, 'Biography,Comedy,Drama', 'Olivier Nakache, Eric Toledano', 'François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot', 'After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.', 'http://ia.media-imdb.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_SX300.jpg',8.4,'https://www.youtube.com/watch?v=0RqDiYnFxTk',1);
+
+INSERT INTO movie_list
+VALUES (10, 'Stardust', 2007, 127, 'Adventure,Family,Fantasy', 'Matthew Vaughn', 'Ian McKellen, Bimbo Hart, Alastair MacIntosh, David Kelly', 'In a countryside town bordering on a magical land, a young man makes a promise to his beloved that he will retrieve a fallen star by venturing into the magical realm.', 'https://images-na.ssl-images-amazon.com/images/M/MV5BMjkyMTE1OTYwNF5BMl5BanBnXkFtZTcwMDIxODYzMw@@._V1_SX300.jpg',8.8,'https://www.youtube.com/watch?v=0xhBJNWt0dw',1);
+
+INSERT INTO movie_list
+VALUES (11, 'Apocalypto', 2006, 139, 'Action,Adventure,Drama', 'Mel Gibson', 'Rudy Youngblood, Dalia Hernández, Jonathan Brewer, Morris Birdyellowhead', 'As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate.', 'https://images-na.ssl-images-amazon.com/images/M/MV5BNTM1NjYyNTY5OV5BMl5BanBnXkFtZTcwMjgwNTMzMQ@@._V1_SX300.jpg',8.3,'https://www.youtube.com/watch?v=gSw5l5jMnPM',1);
+
+INSERT INTO movie_list
+VALUES (12, 'Taxi Driver', 1976, 113, 'Crime,Drama', 'Martin Scorsese', 'Diahnne Abbott, Frank Adu, Victor Argo, Gino Ardito', 'A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.', 'https://th.bing.com/th/id/R.3130cdee4e804c0cc29fcf5c0515e2a3?rik=Cdr3XE0ngYu0eg&riu=http%3a%2f%2fwww.cinemasterpieces.com%2f62014%2ftaxjan14.jpg&ehk=6GcHzUgBBJBlk7QWnHhcl4%2boeE20SiAgK0OigbStX6A%3d&risl=&pid=ImgRaw&r=0._V1_SX300',8.6,'',1);
+
+INSERT INTO movie_list
+VALUES (13, 'No Country for Old Men', 2007, 122, 'Crime,Drama,Thriller', 'Ethan Coen, Joel Coen', 'Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson', 'Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.', 'https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg',9,'',1);
+
+INSERT INTO movie_list
+VALUES (14, 'Planet 51', 2009, 91, 'Animation,Adventure,Comedy', 'Jorge Blanco, Javier Abad, Marcos Martínez', 'Jessica Biel, John Cleese, Gary Oldman, Dwayne Johnson', 'An alien civilization is invaded by Astronaut Chuck Baker, who believes that the planet was uninhabited. Wanted by the military, Baker must get back to his ship before it goes into orbit without him.', 'http://ia.media-imdb.com/images/M/MV5BMTUyOTAyNTA5Ml5BMl5BanBnXkFtZTcwODU2OTM0Mg@@._V1_SX300.jpg',7.3,'',1);
+
+INSERT INTO movie_list
+VALUES (15, 'Looper', 2012, 119, 'Action,Crime,Drama', 'Rian Johnson', 'Joseph Gordon-Levitt, Bruce Willis, Emily Blunt, Paul Dano', 'In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to close the loop by sending back Joes future self for assassination.', 'http://ia.media-imdb.com/images/M/MV5BMTY3NTY0MjEwNV5BMl5BanBnXkFtZTcwNTE3NDA1OA@@._V1_SX300.jpg',8.1,'',1);
+
+INSERT INTO movie_list
+VALUES (16, 'Corpse Bride', 2005, 77, 'Animation,Drama,Family', 'Tim Burton, Mike Johnson', 'Johnny Depp, Helena Bonham Carter, Emily Watson, Tracey Ullman', 'When a shy groom practices his wedding vows in the inadvertent presence of a deceased young woman, she rises from the grave assuming he has married her.', 'http://ia.media-imdb.com/images/M/MV5BMTk1MTY1NjU4MF5BMl5BanBnXkFtZTcwNjIzMTEzMw@@._V1_SX300.jpg',7.8,'',1);
+
+INSERT INTO movie_list
+VALUES (17, 'The Third Man', 1949, 93, 'Film-Noir,Mystery,Thriller', 'Carol Reed', 'Joseph Cotten, Alida Valli, Orson Welles, Trevor Howard', 'Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime.', 'https://images-na.ssl-images-amazon.com/images/M/MV5BMjMwNzMzMTQ0Ml5BMl5BanBnXkFtZTgwNjExMzUwNjE@._V1_SX300.jpg',6.8,'',1);
+
+INSERT INTO movie_list
+VALUES (18, 'The Beach', 2000, 119, 'Adventure,Drama,Romance', 'Danny Boyle', 'Leonardo DiCaprio, Daniel York, Patcharawan Patarakijjanon, Virginie Ledoyen', 'Twenty-something Richard travels to Thailand and finds himself in possession of a strange map. Rumours state that it leads to a solitary beach paradise, a tropical bliss - excited and intrigued, he sets out to find it.', 'https://images-na.ssl-images-amazon.com/images/M/MV5BN2ViYTFiZmUtOTIxZi00YzIxLWEyMzUtYjQwZGNjMjNhY2IwXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg',6.7,'',1);
+
+INSERT INTO movie_list
+VALUES (19, 'Scarface', 1983, 170, 'Crime,Drama', 'Brian De Palma', 'Al Pacino, Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio', 'In Miami in 1980, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.', 'https://images-na.ssl-images-amazon.com/images/M/MV5BMjAzOTM4MzEwNl5BMl5BanBnXkFtZTgwMzU1OTc1MDE@._V1_SX300.jpg',7.2,'',1);
+
+INSERT INTO movie_list
+VALUES (20, 'Sid and Nancy', 1986, 112, 'Biography,Drama,Music', 'Alex Cox', 'Gary Oldman, Chloe Webb, David Hayman, Debby Bishop', 'Morbid biographical story of Sid Vicious, bassist with British punk group the Sex Pistols, and his girlfriend Nancy Spungen. When the Sex Pistols break up after their fateful US tour, ...', 'https://images-na.ssl-images-amazon.com/images/M/MV5BMjExNjA5NzY4M15BMl5BanBnXkFtZTcwNjQ2NzI5NA@@._V1_SX300.jpg',5.8,'',1);
+
+INSERT INTO movie_list
+VALUES (21, 'Deadpool 2', 2018, 132, 'Adventure,Action,Comedy', 'David Leitch', 'Ryan Reynolds, Josh Brolin, Morrena Baccharin, T.J. Miller', 'Foul-mouthed mutant mercenary Wade Wilson (a.k.a. Deadpool,1) assembles a team of fellow mutant rogues to protect a young boy with supernatural abilities from the brutal, time-traveling cyborg Cable.', 'https://m.media-amazon.com/images/M/MV5BMDkzNmRhNTMtZDI4NC00Zjg1LTgxM2QtMjYxZDQ3OWJlMDRlXkEyXkFqcGdeQXVyNTU5MjkzMTU@._V1_FMjpg_UX1000_.jpg',7.8,'',1);
+
+INSERT INTO movie_list
+VALUES (22, 'Inception', 2010, 147, 'Action,Adventure,Thriller', 'Christopher Nolan', 'Leonardo DiCaprio, Joseph Gordon-Levitt, Cillian Murphy, Tom Hardy', 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.', 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg',8.8,'',1);
+
+INSERT INTO movie_list
+VALUES (23, 'Avatar', 2009, 162, 'Action', 'James Cameron', 'Sam Worthington, Sigorney Weaver, Giovanni Ribisi, Stephen Lang', 'A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.', 'https://play-lh.googleusercontent.com/dnjkqlefnzR2XtJ4tGw51pwL_KcvulMtLoxddM4Sxuj3w-D0FxBVy1ERjDfW1uO7XZNT',7.8,'',1);
+
+INSERT INTO movie_list
+VALUES (24, 'Rio 2', 2014, 102, 'Comedy,Family', 'Carlos Saldanha', 'Jesse Eisenberg, Anne Hathaway, Jamie Foxx, Andy Garcia', 'Its a jungle out there for Blu, Jewel, and their three kids after they are hurtled from Rio de Janeiro to the wilds of the Amazon. As Blu tries to fit in, he goes beak-to-beak with the vengeful Nigel and meets his father-in-law.', 'https://play-lh.googleusercontent.com/n1597Aq8f_F4AxRhprTkq4O38OX7NC7q9zYDszHg9shVHh7Nso0ltHxBEqWeLhKwlh6p7w=w240-h480-rw',6.1,'',1);
+
+INSERT INTO movie_list
+VALUES (25, 'Moon Knight', 2022, 77, 'Action', 'Hashem Nazi', 'Oscar Isaac', 'Steven Grant discovers he has been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.', 'https://i.pinimg.com/originals/cb/ff/c7/cbffc7ef499060bb79d7242b2ba38893.png',7.3,'',1);
+
+INSERT INTO movie_list
+VALUES (26, 'Star Trek: Discovery', 2017, 87, 'Action', 'Alex Cox', 'Doug Jones', 'Ten years before Kirk, Spock, and the Enterprise, the USS Discovery discovers new worlds and lifeforms as one Starfleet officer learns to understand all things alien.', 'https://upload.wikimedia.org/wikipedia/en/c/c9/Star_Trek_Discovery_season_3_poster.jpg',7,'',1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
